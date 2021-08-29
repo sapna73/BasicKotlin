@@ -19,5 +19,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
         }
+
+    }
+    private suspend fun getResult1FromApi(){
+        logThread("getResults1FromApi")
+
+    }
+
+    private fun logThread(methodName: String){
+        println("debug: ${methodName}: ${Thread.currentThread().name}")
     }
 }
