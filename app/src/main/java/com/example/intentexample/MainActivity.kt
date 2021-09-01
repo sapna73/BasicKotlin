@@ -24,6 +24,8 @@ class MainActivity : AppCompatActivity() {
     private suspend fun getResult1FromApi(){
         logThread("getResults1FromApi")
 
+
+
     }
 
     private fun logThread(methodName: String){
