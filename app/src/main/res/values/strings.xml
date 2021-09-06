@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">IntentExample</string>
     <string name="title_activity_scrolling">ScrollingActivity</string>
     <string name="large_text">
@@ -92,4 +93,5 @@
     </string>
     <string name="small_text">Stay Health and Happy</string>
     <string name="action_settings">Settings</string>
+
 </resources>
